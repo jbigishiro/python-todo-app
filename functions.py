@@ -13,7 +13,6 @@ def write_todos(todos_arg, filename="todos.txt", ):
         file.writelines(todos_arg)
 
 
-print(__name__)
 if __name__ == "__main__":
     print("Hello from the functions")
     print(get_todos())
